@@ -12,7 +12,7 @@ public class PassGen {
         dobchar = k.split("");
         favchar = j.split("");
      /*  for (int i = 0; i < k.length(); i++) {        //irrelevant to our program
-            System.out.print(" " + dobchar[i] + " ");// simple print method for debugging
+            System.out.print(" " + dobchar[i] + " ");// simple print for debugging
         }
 }*/
     public static void Randomelements(String a) {
