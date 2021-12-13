@@ -1,9 +1,8 @@
 import java.util.*;
 public class PassGen {
-    static String name = new String("Ahmed");//inputs strings
+    static String name = new String("Ahmed");       //inputs strings
     static String dob = new String("11Nov2021");
     static String fav = new String("BlackPanther");
-    //static ArrayList<String> passw = new ArrayList<String>();
     static StringBuffer sb = new StringBuffer(50);
    /* public static String[] namechar = new String[10];
     public static String[] dobchar = new String[15];
@@ -27,7 +26,7 @@ public class PassGen {
             //System.out.println(a[p]);
         }
     }
-    private static StringBuffer ncrypyt(StringBuffer pass) {
+    private static StringBuffer ncrypyt(StringBuffer pass) {   //method implementing encryption and storing key
         String two = new String("abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz");   //key declared inside private method for abstraction
        StringBuffer three = new StringBuffer(50);
        for (int i = 0; i < pass.length(); i++) {
